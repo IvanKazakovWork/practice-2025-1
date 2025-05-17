@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Журнал проекта - PRO Детали</title>
+		<link rel="stylesheet" href="style.css" />
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+					"three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+			<h1>PRO Детали</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Домашняя</a></li>
+					<li><a href="about.html">О проекте</a></li>
+					<li><a href="team.html">Участники</a></li>
+					<li><a href="journal.html">Журнал</a></li>
+					<li><a href="resources.html">Ресурсы</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section id="journal">
+				<h2>Журнал прогресса разработки</h2>
+
+				<article class="journal-post">
+					<h3>Начало разработки Frontend и Backend</h3>
+					<p class="post-meta">Дата: 10.02.2025</p>
+					<p>
+						Активная фаза разработки началась! Frontend команда работает над
+						версткой основных страниц сайта и созданием базовых компонентов
+						интерфейса. Backend команда приступила к проектированию базы данных
+						и разработке первых API эндпоинтов для регистрации пользователей и
+						управления заказами. Регулярно проводятся синхронизационные встречи
+						для обсуждения прогресса и решения возникающих вопросов.
+					</p>
+					<img src="разработка.jpg" alt="Прогресс разработки" />
+				</article>
+
+				<article class="journal-post">
+					<h3>Выбор технологического стека и дизайн</h3>
+					<p class="post-meta">Дата: 27.01.2025</p>
+					<p>
+						После тщательного анализа был выбран технологический стек для
+						разработки платформы. Для frontend части мы остановились на HTML,
+						CSS и JavaScript с возможным использованием современного фреймворка.
+						Backend будет реализован на Python с использованием Django/Flask.
+						Также началась работа над UX/UI дизайном: создаются первые прототипы
+						интерфейса и обсуждается пользовательский путь.
+					</p>
+					<img src="выбор.jpg" alt="Технологический стек и дизайн" />
+				</article>
+
+				<article class="journal-post">
+					<h3>Запуск проекта и начальное планирование</h3>
+					<p class="post-meta">Дата: 13.01.2025</p>
+					<p>
+						Сегодня мы официально запустили работу над проектом "МеталлМастер
+						Платформа". Провели первое командное собрание, обсудили основные
+						цели, задачи и ожидаемые результаты. Составили предварительный план
+						работ и распределили первичные роли в команде. Основное внимание на
+						данном этапе уделяется сбору требований и анализу существующих
+						решений на рынке.
+					</p>
+					<img src="zapusk.jpg" alt="Командное собрание" />
+				</article>
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; 2025 PRO Детали. Все права защищены.</p>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
