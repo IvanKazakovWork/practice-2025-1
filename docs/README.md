@@ -5,7 +5,7 @@
 Запускаем Visual Studio Code и создаем новый Python-проект. Устанавливаем необходимые библиотеки через терминал, выполнив команды:
 
 ```bash
-pip install pyTelegramBotAPI python-dotenv
+pip install pyTelegramBotAPI
 ```
 
 Начинаем разработку Telegram-бота для PRO Detali, используя официальную документацию библиотеки pyTelegramBotAPI (https://pytba.readthedocs.io/). В документации подробно объясняется принцип работы с Telegram Bot API и обработкой сообщений.
